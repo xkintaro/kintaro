@@ -87,7 +87,7 @@ const Kintaro = () => {
                 <img src={kintaroProfileImage} alt="Profile" className="kintaro-profile-image" />
                 <h2 className="kintaro-username">kintaro</h2>
                 <p className="kintaro-bio">
-                    test
+                    Merhaba! Ben kintaro. Bu benim kişisel portfolyo sitem. Burada benim hakkımda daha fazla bilgi bulabilirsiniz.
                 </p>
                 <div className={`kintaro-links ${getLinkLayoutClass()}`}>
                     {socialLinks.map((link, index) => (
